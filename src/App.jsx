@@ -1,5 +1,10 @@
-function App() {
-  return <></>;
-}
+import Counter from "./components/Counter";
 
-export default App;
+export default function App() {
+  return (
+    <>
+      <h1>COUNTER</h1>
+      <Counter />
+    </>
+  );
+}
