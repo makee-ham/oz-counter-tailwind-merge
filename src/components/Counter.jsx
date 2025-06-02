@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { twMerge } from "tailwind-merge";
 
-// 참고: https://github.com/dcastil/tailwind-merge/blob/v3.3.0/docs/when-and-how-to-use-it.md#alternatives
+// 참고: https://github.com/dcastil/tailwind-merge/blob/v3.3.0/docs/when-and-how-to-use-it.md#how-to-use-it
 const COUNTER_BUTTON_BASE_STYLE =
   "px-3 py-1 rounded text-white transition cursor-pointer text-sm";
 const BUTTON_VARIANTS = {
